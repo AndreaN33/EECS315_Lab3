@@ -1,0 +1,15 @@
+A 5 u mgc_sheet 5ade69a056cc.03.7f.00.01.01.00.23.76 1 2 9 0
+V v 1 2 5ade69a056cc.03.7f.00.01.01.01.23.76
+F f 1 "sheet1.ssht_1"
+F f 1 "sheet1.sgfx_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/adn33/adn33/EECS315_Lab3/half_adder/schematic" 1 mgc_schematic 5ade69a05697.03.7f.00.01.01.01.23.76 5ade69a05697.03.7f.00.01.01.00.23.76
+R csduv 1 "$ADK/parts/and02/part" 1 Eddm_part 411ba51a3152.03.93.22.46.d8.00.0e.27 43349f1b0f83.03.93.22.46.d8.02.02.fa
+R csduv 2 "$ADK/parts/and02/and02" 1 mgc_symbol 37584e002056.03.80.fc.a8.96.00.6c.50 43349f1b0f82.03.93.22.46.d8.05.02.fa
+R csduv 3 "$ADK/parts/xor2/part" 1 Eddm_part 411d1c47707e.03.93.22.46.d8.00.24.b5 43349f1b0f4d.03.93.22.46.d8.04.02.fa
+R csduv 4 "$ADK/parts/xor2/xor2" 1 mgc_symbol 37c5af03d1d9.03.93.22.21.a7.00.2d.3e 43349f1b0f4d.03.93.22.46.d8.01.02.fa
+R csduv 5 "$ADK/technology/ic/symbols/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.05.02.fa
+R csduv 6 "$ADK/technology/ic/symbols/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.06.02.fa
+R csduv 7 "$ADK/technology/ic/symbols/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 43349f1b0e02.03.93.22.46.d8.00.02.fa
+R csduv 8 "$ADK/technology/ic/symbols/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 43349f1b0e02.03.93.22.46.d8.01.02.fa
