@@ -1,0 +1,12 @@
+A 5 u Eddm_part 5ade4a35ba4c.03.7f.00.01.01.00.23.76 2 2 2 0
+V v 1 1 5ade4a35ba4c.03.7f.00.01.01.01.23.76
+F f 1 "part.part_1"
+V v 2 1 5ade4b318d43.03.7f.00.01.01.00.23.76
+F f 2 "part.part_2"
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/adn33/adn33/EECS315_Lab3/inv/inv" 1 mgc_symbol 5ade4894a5a4.03.7f.00.01.01.01.23.76 5ade47cadd06.03.7f.00.01.01.00.23.76
+R csduv 1 "/home/adn33/adn33/EECS315_Lab3/inv/schematic" 1 mgc_schematic 5ade463de48d.03.7f.00.01.01.01.23.76 5ade463de48d.03.7f.00.01.01.00.23.76
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/adn33/adn33/EECS315_Lab3/inv/inv" 1 mgc_symbol 5ade4894a5a4.03.7f.00.01.01.01.23.76 5ade47cadd06.03.7f.00.01.01.00.23.76

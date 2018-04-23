@@ -1,0 +1,5 @@
+A 5 u mgc_symbol 5ade4bdb90e8.03.7f.00.01.01.00.23.76 1 2 1 0
+V v 1 1 5ade4bdb90e8.03.7f.00.01.01.01.23.76
+F f 1 "nand.smbl_1"
+O 1
+R csduv 0 "/home/adn33/adn33/EECS315_Lab3/nand/part" 2 Eddm_part 5ade4c298692.03.7f.00.01.01.00.23.76 5ade4b2b45e4.03.7f.00.01.01.00.23.76
