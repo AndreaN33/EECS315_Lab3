@@ -1,0 +1,5 @@
+A 5 u mgc_schematic 5ade538bcbb3.03.7f.00.01.01.00.23.76 1 2 1 0
+V v 1 1 5ade538bcbb3.03.7f.00.01.01.01.23.76
+F o 0 
+O 1
+R cspuv 0 "/home/adn33/adn33/EECS315_Lab3/seq_circuit/schematic/sheet1" 1 mgc_sheet 5ade538bcbd9.03.7f.00.01.01.01.23.76 5ade538bcbd9.03.7f.00.01.01.00.23.76
