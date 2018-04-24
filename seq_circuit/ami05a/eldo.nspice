@@ -1,0 +1,104 @@
+* ELDO netlist generated with ICnet by 'adn33' on Mon Apr 23 2018 at 23:29:47
+
+*
+* Globals.
+*
+.global GND VDD
+
+*
+* Component pathname : $ADK/parts/dff
+*
+.subckt DFF  QB Q CLK D
+
+        M_I$441 N$847 BCLK- N$851 GND n L=0.6u W=4.5u
+        M_I$440 N$849 N$847 VDD VDD p L=0.6u W=1.5u
+        M_I$439 N$847 BCLK- N$848 VDD p L=0.6u W=1.5u
+        M_I$438 N$848 N$849 VDD VDD p L=0.6u W=1.5u
+        M_I$437 N$847 BCLK N$845 VDD p L=0.6u W=8.1u
+        M_I$436 N$845 D VDD VDD p L=0.6u W=8.1u
+        M_I$452 BCLK BCLK- GND GND n L=0.6u W=3u
+        M_I$673 Q QB GND GND n L=0.6u W=3u
+        M_I$672 Q QB VDD VDD p L=0.6u W=5.4u
+        M_I$669 QB N$1074 GND GND n L=0.6u W=3u
+        M_I$675 QB N$1074 VDD VDD p L=0.6u W=5.4u
+        M_I$668 N$1071 N$1074 GND GND n L=0.6u W=1.5u
+        M_I$667 N$1073 N$1071 GND GND n L=0.6u W=1.5u
+        M_I$666 N$1074 BCLK- N$1073 GND n L=0.6u W=1.5u
+        M_I$665 N$1072 N$847 GND GND n L=0.6u W=4.5u
+        M_I$664 N$1074 BCLK N$1072 GND n L=0.6u W=4.5u
+        M_I$663 N$1071 N$1074 VDD VDD p L=0.6u W=1.5u
+        M_I$662 N$1074 BCLK N$1070 VDD p L=0.6u W=1.5u
+        M_I$661 N$1070 N$1071 VDD VDD p L=0.6u W=1.5u
+        M_I$660 N$1074 BCLK- N$1069 VDD p L=0.6u W=8.1u
+        M_I$659 N$1069 N$847 VDD VDD p L=0.6u W=8.1u
+        M_I$449 BCLK- CLK GND GND n L=0.6u W=3u
+        M_I$448 BCLK- CLK VDD VDD p L=0.6u W=5.4u
+        M_I$453 BCLK BCLK- VDD VDD p L=0.6u W=5.4u
+        M_I$445 N$849 N$847 GND GND n L=0.6u W=1.5u
+        M_I$444 N$852 N$849 GND GND n L=0.6u W=1.5u
+        M_I$443 N$847 BCLK N$852 GND n L=0.6u W=1.5u
+        M_I$442 N$851 D GND GND n L=0.6u W=4.5u
+.ends DFF
+
+*
+* Component pathname : $ADK/parts/inv01
+*
+.subckt INV01  A Y
+
+        M_I$411 Y A VDD VDD p L=0.6u W=2.7u
+        M_I$412 Y A GND GND n L=0.6u W=1.5u
+.ends INV01
+
+*
+* Component pathname : $ADK/parts/nor02
+*
+.subckt NOR02  A0 A1 Y
+
+        M_I$5 Y A0 GND GND n L=0.6u W=1.5u
+        M_I$4 Y A1 GND GND n L=0.6u W=1.5u
+        M_I$3 Y A1 N$1 VDD p L=0.6u W=3.9u
+        M_I$2 N$1 A0 VDD VDD p L=0.6u W=3.9u
+.ends NOR02
+
+*
+* Component pathname : $ADK/parts/nand02
+*
+.subckt NAND02  Y A0 A1
+
+        M_I$472 Y A1 VDD VDD p L=0.6u W=3.6u
+        M_I$471 Y A0 VDD VDD p L=0.6u W=3.6u
+        M_I$4 Y A0 N$7 GND n L=0.6u W=3u
+        M_I$5 N$7 A1 GND GND n L=0.6u W=3u
+.ends NAND02
+
+*
+* Component pathname : $ADK/parts/or02
+*
+.subckt OR02  A0 A1 Y
+
+        M_I$212 Y N$5 GND GND n L=0.6u W=1.5u
+        M_I$211 Y N$5 VDD VDD p L=0.6u W=2.7u
+        M_I$5 N$5 A0 GND GND n L=0.6u W=1.5u
+        M_I$4 N$5 A1 GND GND n L=0.6u W=1.5u
+        M_I$3 N$5 A1 N$1 VDD p L=0.6u W=3.9u
+        M_I$2 N$1 A0 VDD VDD p L=0.6u W=3.9u
+.ends OR02
+
+*
+* MAIN CELL: Component pathname : /home/adn33/adn33/EECS315_Lab3/seq_circuit
+*
+        X_DFF3 N$55 N$35 CLK Y2 DFF
+        X_DFF2 N$51 N$56 CLK Y1 DFF
+        X_DFF1 N$45 N$47 CLK Y0 DFF
+        X_INV012 Y0 OUT INV01
+        X_NOR024 Y0 N$20 Y1 NOR02
+        X_NOR023 N$26 N$56 Y0 NOR02
+        X_NAND022 N$26 N$23 N$24 NAND02
+        X_NOR022 N$31 I2 Y2 NOR02
+        X_OR022 N$28 N$31 N$24 OR02
+        X_OR021 I3 N$28 N$23 OR02
+        X_NAND021 N$28 N$20 N$47 NAND02
+        X_NOR021 I1 N$35 N$31 NOR02
+        X_INV011 I0 N$20 INV01
+*
+.end

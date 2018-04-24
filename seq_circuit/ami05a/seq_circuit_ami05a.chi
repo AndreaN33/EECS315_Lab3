@@ -1,0 +1,693 @@
+  Run on o405-u09 (Linux 3.13.0-139-generic)
+
+/mgc/anacad2009_2c/aol/bin/eldo_64.exe -i /home/adn33/adn33/EECS315_Lab3/seq_circuit/ami05a/seq_circuit_ami05a.cir -o /home/adn33/adn33/EECS315_Lab3/seq_circuit/ami05a/seq_circuit_ami05a.chi -nocou -gwl jwdb -wdb_folder -outname seq_circuit_ami05a_01 
+
+
+
+***** PRE-PROCESSING ...
+
+1*******23-Apr-18 *******  ELDO 2009.2c (64 bits)  (v7.2_4.1)  *******23:30:06******
+
+0* Component: /home/adn33/adn33/EECS315_Lab3/seq_circuit  Viewpoint: ami05a
+
+0****     INPUT LISTING                                               
+
+0***********************************************************************
+    2  ** including /home/adn33/adn33/EECS315_Lab3/seq_circuit/ami05a/seq_circuit_ami05a.spi
+    1  *
+    2  * .CONNECT statements
+    3  *
+    4  .CONNECT GND 0
+    5  
+    6  
+    7  * ELDO netlist generated with ICnet by 'adn33' on Mon Apr 23 2018 at 23:29:47
+    8  
+    9  *
+   10  * Globals.
+   11  *
+   12  .GLOBAL GND VDD
+   13  
+   14  *
+   15  * Component pathname : $ADK/parts/dff
+   16  *
+   17  .SUBCKT DFF  QB Q CLK D
+   18  
+   19          M_I$441 N$847 BCLK- N$851 GND N L=0.6U W=4.5U
+   20          M_I$440 N$849 N$847 VDD VDD P L=0.6U W=1.5U
+   21          M_I$439 N$847 BCLK- N$848 VDD P L=0.6U W=1.5U
+   22          M_I$438 N$848 N$849 VDD VDD P L=0.6U W=1.5U
+   23          M_I$437 N$847 BCLK N$845 VDD P L=0.6U W=8.1U
+   24          M_I$436 N$845 D VDD VDD P L=0.6U W=8.1U
+   25          M_I$452 BCLK BCLK- GND GND N L=0.6U W=3U
+   26          M_I$673 Q QB GND GND N L=0.6U W=3U
+   27          M_I$672 Q QB VDD VDD P L=0.6U W=5.4U
+   28          M_I$669 QB N$1074 GND GND N L=0.6U W=3U
+   29          M_I$675 QB N$1074 VDD VDD P L=0.6U W=5.4U
+   30          M_I$668 N$1071 N$1074 GND GND N L=0.6U W=1.5U
+   31          M_I$667 N$1073 N$1071 GND GND N L=0.6U W=1.5U
+   32          M_I$666 N$1074 BCLK- N$1073 GND N L=0.6U W=1.5U
+   33          M_I$665 N$1072 N$847 GND GND N L=0.6U W=4.5U
+   34          M_I$664 N$1074 BCLK N$1072 GND N L=0.6U W=4.5U
+   35          M_I$663 N$1071 N$1074 VDD VDD P L=0.6U W=1.5U
+   36          M_I$662 N$1074 BCLK N$1070 VDD P L=0.6U W=1.5U
+   37          M_I$661 N$1070 N$1071 VDD VDD P L=0.6U W=1.5U
+   38          M_I$660 N$1074 BCLK- N$1069 VDD P L=0.6U W=8.1U
+   39          M_I$659 N$1069 N$847 VDD VDD P L=0.6U W=8.1U
+   40          M_I$449 BCLK- CLK GND GND N L=0.6U W=3U
+   41          M_I$448 BCLK- CLK VDD VDD P L=0.6U W=5.4U
+   42          M_I$453 BCLK BCLK- VDD VDD P L=0.6U W=5.4U
+   43          M_I$445 N$849 N$847 GND GND N L=0.6U W=1.5U
+   44          M_I$444 N$852 N$849 GND GND N L=0.6U W=1.5U
+   45          M_I$443 N$847 BCLK N$852 GND N L=0.6U W=1.5U
+   46          M_I$442 N$851 D GND GND N L=0.6U W=4.5U
+   47  .ENDS DFF
+   48  
+   49  *
+   50  * Component pathname : $ADK/parts/inv01
+   51  *
+   52  .SUBCKT INV01  A Y
+   53  
+   54          M_I$411 Y A VDD VDD P L=0.6U W=2.7U
+   55          M_I$412 Y A GND GND N L=0.6U W=1.5U
+   56  .ENDS INV01
+   57  
+   58  *
+   59  * Component pathname : $ADK/parts/nor02
+   60  *
+   61  .SUBCKT NOR02  A0 A1 Y
+   62  
+   63          M_I$5 Y A0 GND GND N L=0.6U W=1.5U
+   64          M_I$4 Y A1 GND GND N L=0.6U W=1.5U
+   65          M_I$3 Y A1 N$1 VDD P L=0.6U W=3.9U
+   66          M_I$2 N$1 A0 VDD VDD P L=0.6U W=3.9U
+   67  .ENDS NOR02
+   68  
+   69  *
+   70  * Component pathname : $ADK/parts/nand02
+   71  *
+   72  .SUBCKT NAND02  Y A0 A1
+   73  
+   74          M_I$472 Y A1 VDD VDD P L=0.6U W=3.6U
+   75          M_I$471 Y A0 VDD VDD P L=0.6U W=3.6U
+   76          M_I$4 Y A0 N$7 GND N L=0.6U W=3U
+   77          M_I$5 N$7 A1 GND GND N L=0.6U W=3U
+   78  .ENDS NAND02
+   79  
+   80  *
+   81  * Component pathname : $ADK/parts/or02
+   82  *
+   83  .SUBCKT OR02  A0 A1 Y
+   84  
+   85          M_I$212 Y N$5 GND GND N L=0.6U W=1.5U
+   86          M_I$211 Y N$5 VDD VDD P L=0.6U W=2.7U
+   87          M_I$5 N$5 A0 GND GND N L=0.6U W=1.5U
+   88          M_I$4 N$5 A1 GND GND N L=0.6U W=1.5U
+   89          M_I$3 N$5 A1 N$1 VDD P L=0.6U W=3.9U
+   90          M_I$2 N$1 A0 VDD VDD P L=0.6U W=3.9U
+   91  .ENDS OR02
+   92  
+   93  *
+   94  * MAIN CELL: Component pathname : /home/adn33/adn33/EECS315_Lab3/seq_circuit
+   95  *
+   96          X_DFF3 N$55 N$35 CLK Y2 DFF
+   97          X_DFF2 N$51 N$56 CLK Y1 DFF
+   98          X_DFF1 N$45 N$47 CLK Y0 DFF
+   99          X_INV012 Y0 OUT INV01
+  100          X_NOR024 Y0 N$20 Y1 NOR02
+  101          X_NOR023 N$26 N$56 Y0 NOR02
+  102          X_NAND022 N$26 N$23 N$24 NAND02
+  103          X_NOR022 N$31 I2 Y2 NOR02
+  104          X_OR022 N$28 N$31 N$24 OR02
+  105          X_OR021 I3 N$28 N$23 OR02
+  106          X_NAND021 N$28 N$20 N$47 NAND02
+  107          X_NOR021 I1 N$35 N$31 NOR02
+  108          X_INV011 I0 N$20 INV01
+  109  *
+  110  *end
+    2  
+    3  .PLOT TRAN V(CLK)
+    4  .PLOT TRAN V(OUT)
+    5  .PLOT TRAN V(Y0)
+    6  .PLOT TRAN V(Y1)
+    7  .PLOT TRAN V(Y2)
+    8  
+    9  VFORCE__CLK CLK GND pulse (0 1 0 1e-09 1e-09 5e-08 1e-07)
+   10  
+   11  VFORCE__I0 I0 GND pulse (0 1 0 1e-09 1e-09 5e-08 1e-07)
+   12  
+   13  VFORCE__I1 I1 GND pulse (0 1 0 1e-09 1e-09 5e-08 1e-07)
+   14  
+   15  VFORCE__I2 I2 GND pulse (0 1 0 1e-09 1e-09 5e-08 1e-07)
+   16  
+   17  VFORCE__I3 I3 GND pulse (0 1 0 1e-09 1e-09 5e-08 1e-07)
+   18  
+   19  
+   20  
+   21  
+   22  .OPTION NOASCII
+   23  .OPTION MODWL
+   24  .OPTION ENGNOT
+   25  .OPTION AEX
+   26  
+   27  .TEMP 27 
+   28  
+   29  .TRAN  0 100N 0s 
+   30  .END
+
+End of file 
+
+
+***** 0  error(s). 
+***** 0  warning(s). 
+
+
+
+***** GENERATION ...
+
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 19:
++   OBJECT "X_DFF3.M_I$441": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 19:
++   OBJECT "X_DFF3.M_I$441": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 20:
++   OBJECT "X_DFF3.M_I$440": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 20:
++   OBJECT "X_DFF3.M_I$440": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 21:
++   OBJECT "X_DFF3.M_I$439": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 21:
++   OBJECT "X_DFF3.M_I$439": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 22:
++   OBJECT "X_DFF3.M_I$438": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 22:
++   OBJECT "X_DFF3.M_I$438": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 23:
++   OBJECT "X_DFF3.M_I$437": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 23:
++   OBJECT "X_DFF3.M_I$437": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 24:
++   OBJECT "X_DFF3.M_I$436": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 24:
++   OBJECT "X_DFF3.M_I$436": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 25:
++   OBJECT "X_DFF3.M_I$452": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 25:
++   OBJECT "X_DFF3.M_I$452": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 26:
++   OBJECT "X_DFF3.M_I$673": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 26:
++   OBJECT "X_DFF3.M_I$673": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 27:
++   OBJECT "X_DFF3.M_I$672": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 27:
++   OBJECT "X_DFF3.M_I$672": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 28:
++   OBJECT "X_DFF3.M_I$669": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 28:
++   OBJECT "X_DFF3.M_I$669": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 29:
++   OBJECT "X_DFF3.M_I$675": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 29:
++   OBJECT "X_DFF3.M_I$675": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 30:
++   OBJECT "X_DFF3.M_I$668": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 30:
++   OBJECT "X_DFF3.M_I$668": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 31:
++   OBJECT "X_DFF3.M_I$667": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 31:
++   OBJECT "X_DFF3.M_I$667": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 32:
++   OBJECT "X_DFF3.M_I$666": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 32:
++   OBJECT "X_DFF3.M_I$666": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 33:
++   OBJECT "X_DFF3.M_I$665": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 33:
++   OBJECT "X_DFF3.M_I$665": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 34:
++   OBJECT "X_DFF3.M_I$664": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 34:
++   OBJECT "X_DFF3.M_I$664": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 35:
++   OBJECT "X_DFF3.M_I$663": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 35:
++   OBJECT "X_DFF3.M_I$663": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 36:
++   OBJECT "X_DFF3.M_I$662": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 36:
++   OBJECT "X_DFF3.M_I$662": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 37:
++   OBJECT "X_DFF3.M_I$661": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 37:
++   OBJECT "X_DFF3.M_I$661": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 38:
++   OBJECT "X_DFF3.M_I$660": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 38:
++   OBJECT "X_DFF3.M_I$660": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 39:
++   OBJECT "X_DFF3.M_I$659": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 39:
++   OBJECT "X_DFF3.M_I$659": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 40:
++   OBJECT "X_DFF3.M_I$449": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 40:
++   OBJECT "X_DFF3.M_I$449": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 41:
++   OBJECT "X_DFF3.M_I$448": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 41:
++   OBJECT "X_DFF3.M_I$448": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 42:
++   OBJECT "X_DFF3.M_I$453": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 42:
++   OBJECT "X_DFF3.M_I$453": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 43:
++   OBJECT "X_DFF3.M_I$445": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 43:
++   OBJECT "X_DFF3.M_I$445": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 44:
++   OBJECT "X_DFF3.M_I$444": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 44:
++   OBJECT "X_DFF3.M_I$444": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 45:
++   OBJECT "X_DFF3.M_I$443": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 45:
++   OBJECT "X_DFF3.M_I$443": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 46:
++   OBJECT "X_DFF3.M_I$442": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 46:
++   OBJECT "X_DFF3.M_I$442": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 19:
++   OBJECT "X_DFF2.M_I$441": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 19:
++   OBJECT "X_DFF2.M_I$441": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 20:
++   OBJECT "X_DFF2.M_I$440": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 20:
++   OBJECT "X_DFF2.M_I$440": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 21:
++   OBJECT "X_DFF2.M_I$439": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 21:
++   OBJECT "X_DFF2.M_I$439": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 22:
++   OBJECT "X_DFF2.M_I$438": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 22:
++   OBJECT "X_DFF2.M_I$438": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 23:
++   OBJECT "X_DFF2.M_I$437": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 23:
++   OBJECT "X_DFF2.M_I$437": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 24:
++   OBJECT "X_DFF2.M_I$436": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 24:
++   OBJECT "X_DFF2.M_I$436": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 25:
++   OBJECT "X_DFF2.M_I$452": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 25:
++   OBJECT "X_DFF2.M_I$452": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 26:
++   OBJECT "X_DFF2.M_I$673": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 26:
++   OBJECT "X_DFF2.M_I$673": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 27:
++   OBJECT "X_DFF2.M_I$672": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 27:
++   OBJECT "X_DFF2.M_I$672": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 28:
++   OBJECT "X_DFF2.M_I$669": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 28:
++   OBJECT "X_DFF2.M_I$669": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 29:
++   OBJECT "X_DFF2.M_I$675": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 29:
++   OBJECT "X_DFF2.M_I$675": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 30:
++   OBJECT "X_DFF2.M_I$668": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 30:
++   OBJECT "X_DFF2.M_I$668": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 31:
++   OBJECT "X_DFF2.M_I$667": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 31:
++   OBJECT "X_DFF2.M_I$667": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 32:
++   OBJECT "X_DFF2.M_I$666": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 32:
++   OBJECT "X_DFF2.M_I$666": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 33:
++   OBJECT "X_DFF2.M_I$665": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 33:
++   OBJECT "X_DFF2.M_I$665": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 34:
++   OBJECT "X_DFF2.M_I$664": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 34:
++   OBJECT "X_DFF2.M_I$664": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 35:
++   OBJECT "X_DFF2.M_I$663": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 35:
++   OBJECT "X_DFF2.M_I$663": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 36:
++   OBJECT "X_DFF2.M_I$662": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 36:
++   OBJECT "X_DFF2.M_I$662": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 37:
++   OBJECT "X_DFF2.M_I$661": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 37:
++   OBJECT "X_DFF2.M_I$661": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 38:
++   OBJECT "X_DFF2.M_I$660": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 38:
++   OBJECT "X_DFF2.M_I$660": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 39:
++   OBJECT "X_DFF2.M_I$659": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 39:
++   OBJECT "X_DFF2.M_I$659": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 40:
++   OBJECT "X_DFF2.M_I$449": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 40:
++   OBJECT "X_DFF2.M_I$449": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 41:
++   OBJECT "X_DFF2.M_I$448": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 41:
++   OBJECT "X_DFF2.M_I$448": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 42:
++   OBJECT "X_DFF2.M_I$453": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 42:
++   OBJECT "X_DFF2.M_I$453": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 43:
++   OBJECT "X_DFF2.M_I$445": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 43:
++   OBJECT "X_DFF2.M_I$445": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 44:
++   OBJECT "X_DFF2.M_I$444": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 44:
++   OBJECT "X_DFF2.M_I$444": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 45:
++   OBJECT "X_DFF2.M_I$443": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 45:
++   OBJECT "X_DFF2.M_I$443": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 46:
++   OBJECT "X_DFF2.M_I$442": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 46:
++   OBJECT "X_DFF2.M_I$442": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 19:
++   OBJECT "X_DFF1.M_I$441": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 19:
++   OBJECT "X_DFF1.M_I$441": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 20:
++   OBJECT "X_DFF1.M_I$440": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 20:
++   OBJECT "X_DFF1.M_I$440": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 21:
++   OBJECT "X_DFF1.M_I$439": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 21:
++   OBJECT "X_DFF1.M_I$439": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 22:
++   OBJECT "X_DFF1.M_I$438": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 22:
++   OBJECT "X_DFF1.M_I$438": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 23:
++   OBJECT "X_DFF1.M_I$437": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 23:
++   OBJECT "X_DFF1.M_I$437": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 24:
++   OBJECT "X_DFF1.M_I$436": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 24:
++   OBJECT "X_DFF1.M_I$436": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 25:
++   OBJECT "X_DFF1.M_I$452": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 25:
++   OBJECT "X_DFF1.M_I$452": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 26:
++   OBJECT "X_DFF1.M_I$673": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 26:
++   OBJECT "X_DFF1.M_I$673": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 27:
++   OBJECT "X_DFF1.M_I$672": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 27:
++   OBJECT "X_DFF1.M_I$672": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 28:
++   OBJECT "X_DFF1.M_I$669": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 28:
++   OBJECT "X_DFF1.M_I$669": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 29:
++   OBJECT "X_DFF1.M_I$675": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 29:
++   OBJECT "X_DFF1.M_I$675": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 30:
++   OBJECT "X_DFF1.M_I$668": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 30:
++   OBJECT "X_DFF1.M_I$668": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 31:
++   OBJECT "X_DFF1.M_I$667": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 31:
++   OBJECT "X_DFF1.M_I$667": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 32:
++   OBJECT "X_DFF1.M_I$666": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 32:
++   OBJECT "X_DFF1.M_I$666": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 33:
++   OBJECT "X_DFF1.M_I$665": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 33:
++   OBJECT "X_DFF1.M_I$665": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 34:
++   OBJECT "X_DFF1.M_I$664": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 34:
++   OBJECT "X_DFF1.M_I$664": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 35:
++   OBJECT "X_DFF1.M_I$663": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 35:
++   OBJECT "X_DFF1.M_I$663": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 36:
++   OBJECT "X_DFF1.M_I$662": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 36:
++   OBJECT "X_DFF1.M_I$662": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 37:
++   OBJECT "X_DFF1.M_I$661": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 37:
++   OBJECT "X_DFF1.M_I$661": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 38:
++   OBJECT "X_DFF1.M_I$660": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 38:
++   OBJECT "X_DFF1.M_I$660": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 39:
++   OBJECT "X_DFF1.M_I$659": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 39:
++   OBJECT "X_DFF1.M_I$659": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 40:
++   OBJECT "X_DFF1.M_I$449": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 40:
++   OBJECT "X_DFF1.M_I$449": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 41:
++   OBJECT "X_DFF1.M_I$448": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 41:
++   OBJECT "X_DFF1.M_I$448": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 42:
++   OBJECT "X_DFF1.M_I$453": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 42:
++   OBJECT "X_DFF1.M_I$453": Model DFF.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 43:
++   OBJECT "X_DFF1.M_I$445": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 43:
++   OBJECT "X_DFF1.M_I$445": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 44:
++   OBJECT "X_DFF1.M_I$444": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 44:
++   OBJECT "X_DFF1.M_I$444": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 45:
++   OBJECT "X_DFF1.M_I$443": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 45:
++   OBJECT "X_DFF1.M_I$443": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 46:
++   OBJECT "X_DFF1.M_I$442": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 46:
++   OBJECT "X_DFF1.M_I$442": Model DFF.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 54:
++   OBJECT "X_INV012.M_I$411": Model INV01.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 54:
++   OBJECT "X_INV012.M_I$411": Model INV01.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 55:
++   OBJECT "X_INV012.M_I$412": Model INV01.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 55:
++   OBJECT "X_INV012.M_I$412": Model INV01.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR024.M_I$5": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR024.M_I$5": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR024.M_I$4": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR024.M_I$4": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR024.M_I$3": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR024.M_I$3": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR024.M_I$2": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR024.M_I$2": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR023.M_I$5": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR023.M_I$5": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR023.M_I$4": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR023.M_I$4": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR023.M_I$3": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR023.M_I$3": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR023.M_I$2": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR023.M_I$2": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 74:
++   OBJECT "X_NAND022.M_I$472": Model NAND02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 74:
++   OBJECT "X_NAND022.M_I$472": Model NAND02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 75:
++   OBJECT "X_NAND022.M_I$471": Model NAND02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 75:
++   OBJECT "X_NAND022.M_I$471": Model NAND02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 76:
++   OBJECT "X_NAND022.M_I$4": Model NAND02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 76:
++   OBJECT "X_NAND022.M_I$4": Model NAND02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 77:
++   OBJECT "X_NAND022.M_I$5": Model NAND02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 77:
++   OBJECT "X_NAND022.M_I$5": Model NAND02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR022.M_I$5": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR022.M_I$5": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR022.M_I$4": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR022.M_I$4": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR022.M_I$3": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR022.M_I$3": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR022.M_I$2": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR022.M_I$2": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 85:
++   OBJECT "X_OR022.M_I$212": Model OR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 85:
++   OBJECT "X_OR022.M_I$212": Model OR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 86:
++   OBJECT "X_OR022.M_I$211": Model OR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 86:
++   OBJECT "X_OR022.M_I$211": Model OR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 87:
++   OBJECT "X_OR022.M_I$5": Model OR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 87:
++   OBJECT "X_OR022.M_I$5": Model OR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 88:
++   OBJECT "X_OR022.M_I$4": Model OR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 88:
++   OBJECT "X_OR022.M_I$4": Model OR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 89:
++   OBJECT "X_OR022.M_I$3": Model OR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 89:
++   OBJECT "X_OR022.M_I$3": Model OR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 90:
++   OBJECT "X_OR022.M_I$2": Model OR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 90:
++   OBJECT "X_OR022.M_I$2": Model OR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 85:
++   OBJECT "X_OR021.M_I$212": Model OR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 85:
++   OBJECT "X_OR021.M_I$212": Model OR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 86:
++   OBJECT "X_OR021.M_I$211": Model OR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 86:
++   OBJECT "X_OR021.M_I$211": Model OR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 87:
++   OBJECT "X_OR021.M_I$5": Model OR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 87:
++   OBJECT "X_OR021.M_I$5": Model OR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 88:
++   OBJECT "X_OR021.M_I$4": Model OR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 88:
++   OBJECT "X_OR021.M_I$4": Model OR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 89:
++   OBJECT "X_OR021.M_I$3": Model OR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 89:
++   OBJECT "X_OR021.M_I$3": Model OR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 90:
++   OBJECT "X_OR021.M_I$2": Model OR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 90:
++   OBJECT "X_OR021.M_I$2": Model OR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 74:
++   OBJECT "X_NAND021.M_I$472": Model NAND02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 74:
++   OBJECT "X_NAND021.M_I$472": Model NAND02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 75:
++   OBJECT "X_NAND021.M_I$471": Model NAND02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 75:
++   OBJECT "X_NAND021.M_I$471": Model NAND02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 76:
++   OBJECT "X_NAND021.M_I$4": Model NAND02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 76:
++   OBJECT "X_NAND021.M_I$4": Model NAND02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 77:
++   OBJECT "X_NAND021.M_I$5": Model NAND02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 77:
++   OBJECT "X_NAND021.M_I$5": Model NAND02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR021.M_I$5": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR021.M_I$5": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR021.M_I$4": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR021.M_I$4": Model NOR02.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR021.M_I$3": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR021.M_I$3": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR021.M_I$2": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR021.M_I$2": Model NOR02.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 54:
++   OBJECT "X_INV011.M_I$411": Model INV01.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 54:
++   OBJECT "X_INV011.M_I$411": Model INV01.P not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 55:
++   OBJECT "X_INV011.M_I$412": Model INV01.N not yet defined.
+ERROR 1577: In file "./ami05a/seq_circuit_ami05a.spi" line 55:
++   OBJECT "X_INV011.M_I$412": Model INV01.N not yet defined.
+Warning 1615: In file "./ami05a/seq_circuit_ami05a.cir" line 29:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 5.000e-09 s.
+
+***** 248  error(s). 
+***** 1  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION 
+
+
+Memory space allocated (bytes): 124563456
+129 elements
+75 nodes 
+5 input signals
+
+Check your input netlist...
+
+***>MESSAGE SUMMARY: 248 errors, 1 warning
+
+***>GLOBAL CPU TIME 0s 010ms <***
+
+
+***>GLOBAL ELAPSED TIME 1s <***
+
+
+  Job started at 23-Apr-2018 23:30:05
+  Job end at     23-Apr-2018 23:30:06
+
+  Run on o405-u09 (Linux 3.13.0-139-generic)
+

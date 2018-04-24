@@ -1,0 +1,68 @@
+//  ICnet  v2008.2_10.1 (2008.2i)  Tue May 11 17:04:35 PDT 2010
+//  Core Libraries  v2008.2_10.1 Tue May 11 17:22:44 PDT 2010
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -eldo -o /home/adn33/adn33/EECS315_Lab3/seq_circuit/ami05a/seq_circuit_ami05a.spi -check -upper -dmsfile /home/adn33/adn33/EECS315_Lab3/seq_circuit/ami05a/design.dms /home/adn33/adn33/EECS315_Lab3/seq_circuit/ami05a
+
+// **** Reading </home/adn33/adn33/EECS315_Lab3/seq_circuit/ami05a> for ELDO netlist ****
+
+// Checking 6 sheet(s) for out of date references to symbols and interfaces...
+// Done.
+// Parsing file '/mgc/adk3_1/parts/adk_symbols/nmos4/@ncf.dir/nmos4.ncf' succeeded.
+// Parsing file '/mgc/adk3_1/parts/adk_symbols/pmos4/@ncf.dir/pmos4.ncf' succeeded.
+// NOTE: There is no part interface for the top level schematic.  The external nets in the schematic
+//       are being scanned to create the pin names for the top level subckt.
+Processing [/home/adn33/adn33/EECS315_Lab3/seq_circuit] [seq_circuit/seq_circuit] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/INV011'
+Processing [$ADK/parts/inv01] [inv01/inv01] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/NOR021'
+Processing [$ADK/parts/nor02] [nor02/nor02] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/NAND021'
+Processing [$ADK/parts/nand02] [nand02/nand02] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/OR021'
+Processing [$ADK/parts/or02] [or02/or02] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/OR022'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/NOR022'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/NAND022'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/NOR023'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/NOR024'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/INV012'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/DFF1'
+Processing [$ADK/parts/dff] [dff/dff] [schematic]
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/DFF2'
+
+ *** warning *** : Unable to evaluate expression '(technology)' in MODEL property on instance '/DFF3'
+Primitive [$ADK/parts/adk_symbols/nmos4] [MG_STD/nmos3] [SPICE=PRIM] (NCF entry line:8 file:/mgc/adk3_1/parts/adk_symbols/nmos4/@ncf.dir/nmos4.ncf)
+Primitive [$ADK/parts/adk_symbols/pmos4] [MG_STD/pmos3] [SPICE=PRIM] (NCF entry line:8 file:/mgc/adk3_1/parts/adk_symbols/pmos4/@ncf.dir/pmos4.ncf)
+
+**** Writing </home/adn33/adn33/EECS315_Lab3/seq_circuit/ami05a> netlist for ELDO ****
+
+Number of cells: 8
+Number of primitive instances: 124
+
+Done...
+// Registration file '/mgc/adk3_1/parts/adk_symbols/nmos4/@ncf.dir/nmos4.ncf' closed.
+// Registration file '/mgc/adk3_1/parts/adk_symbols/pmos4/@ncf.dir/pmos4.ncf' closed.

@@ -1,0 +1,187 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   GND GND
+   VDD VDD
+End Globals
+
+Cell NMOS4
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell PMOS4
+   Pin D D
+   Pin G G
+   Pin S S
+   Pin B B
+End Cell
+
+Cell DFF
+   Pin QB QB
+   Pin Q Q
+   Pin CLK CLK
+   Pin D D
+   Net N$1074 N$1074
+   Net N$1073 N$1073
+   Net N$1072 N$1072
+   Net N$1071 N$1071
+   Net N$1070 N$1070
+   Net bclk BCLK
+   Net bclk- BCLK-
+   Net N$1069 N$1069
+   Net N$847 N$847
+   Net N$852 N$852
+   Net N$851 N$851
+   Net N$849 N$849
+   Net N$848 N$848
+   Net N$845 N$845
+   Net D D
+   Net CLK CLK
+   Net Q Q
+   Net QB QB
+   Global GND GND
+   Global VDD VDD
+   Inst I$441 M_I$441 NMOS4
+   Inst I$440 M_I$440 PMOS4
+   Inst I$439 M_I$439 PMOS4
+   Inst I$438 M_I$438 PMOS4
+   Inst I$437 M_I$437 PMOS4
+   Inst I$436 M_I$436 PMOS4
+   Inst I$452 M_I$452 NMOS4
+   Inst I$673 M_I$673 NMOS4
+   Inst I$672 M_I$672 PMOS4
+   Inst I$669 M_I$669 NMOS4
+   Inst I$675 M_I$675 PMOS4
+   Inst I$668 M_I$668 NMOS4
+   Inst I$667 M_I$667 NMOS4
+   Inst I$666 M_I$666 NMOS4
+   Inst I$665 M_I$665 NMOS4
+   Inst I$664 M_I$664 NMOS4
+   Inst I$663 M_I$663 PMOS4
+   Inst I$662 M_I$662 PMOS4
+   Inst I$661 M_I$661 PMOS4
+   Inst I$660 M_I$660 PMOS4
+   Inst I$659 M_I$659 PMOS4
+   Inst I$449 M_I$449 NMOS4
+   Inst I$448 M_I$448 PMOS4
+   Inst I$453 M_I$453 PMOS4
+   Inst I$445 M_I$445 NMOS4
+   Inst I$444 M_I$444 NMOS4
+   Inst I$443 M_I$443 NMOS4
+   Inst I$442 M_I$442 NMOS4
+End Cell
+
+Cell INV01
+   Pin A A
+   Pin Y Y
+   Net Y Y
+   Net A A
+   Global GND GND
+   Global VDD VDD
+   Inst I$411 M_I$411 PMOS4
+   Inst I$412 M_I$412 NMOS4
+End Cell
+
+Cell NOR02
+   Pin A0 A0
+   Pin A1 A1
+   Pin Y Y
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Global GND GND
+   Global VDD VDD
+   Inst I$5 M_I$5 NMOS4
+   Inst I$4 M_I$4 NMOS4
+   Inst I$3 M_I$3 PMOS4
+   Inst I$2 M_I$2 PMOS4
+End Cell
+
+Cell NAND02
+   Pin Y Y
+   Pin A0 A0
+   Pin A1 A1
+   Net N$7 N$7
+   Net A1 A1
+   Net A0 A0
+   Net Y Y
+   Global GND GND
+   Global VDD VDD
+   Inst I$472 M_I$472 PMOS4
+   Inst I$471 M_I$471 PMOS4
+   Inst I$4 M_I$4 NMOS4
+   Inst I$5 M_I$5 NMOS4
+End Cell
+
+Cell OR02
+   Pin A0 A0
+   Pin A1 A1
+   Pin Y Y
+   Net N$5 N$5
+   Net N$1 N$1
+   Net Y Y
+   Net A1 A1
+   Net A0 A0
+   Global GND GND
+   Global VDD VDD
+   Inst I$212 M_I$212 NMOS4
+   Inst I$211 M_I$211 PMOS4
+   Inst I$5 M_I$5 NMOS4
+   Inst I$4 M_I$4 NMOS4
+   Inst I$3 M_I$3 PMOS4
+   Inst I$2 M_I$2 PMOS4
+End Cell
+
+Cell #top#
+   Pin Y2 Y2
+   Pin Y1 Y1
+   Pin Y0 Y0
+   Pin CLK CLK
+   Pin i1 I1
+   Pin OUt OUT
+   Pin i2 I2
+   Pin i0 I0
+   Pin i3 I3
+   Net N$56 N$56
+   Net N$55 N$55
+   Net N$51 N$51
+   Net N$45 N$45
+   Net N$47 N$47
+   Net N$26 N$26
+   Net N$24 N$24
+   Net N$23 N$23
+   Net N$31 N$31
+   Net N$28 N$28
+   Net N$35 N$35
+   Net N$20 N$20
+   Net i3 I3
+   Net i0 I0
+   Net i2 I2
+   Net OUt OUT
+   Net i1 I1
+   Net CLK CLK
+   Net Y0 Y0
+   Net Y1 Y1
+   Net Y2 Y2
+   Inst DFF3 X_DFF3 DFF
+   Inst DFF2 X_DFF2 DFF
+   Inst DFF1 X_DFF1 DFF
+   Inst INV012 X_INV012 INV01
+   Inst NOR024 X_NOR024 NOR02
+   Inst NOR023 X_NOR023 NOR02
+   Inst NAND022 X_NAND022 NAND02
+   Inst NOR022 X_NOR022 NOR02
+   Inst OR022 X_OR022 OR02
+   Inst OR021 X_OR021 OR02
+   Inst NAND021 X_NAND021 NAND02
+   Inst NOR021 X_NOR021 NOR02
+   Inst INV011 X_INV011 INV01
+End Cell
+

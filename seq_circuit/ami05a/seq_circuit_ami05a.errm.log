@@ -1,0 +1,500 @@
+START report: Mon Apr 23 23:30:06 2018 
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 19:
++   OBJECT "X_DFF3.M_I$441": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 19:
++   OBJECT "X_DFF3.M_I$441": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 20:
++   OBJECT "X_DFF3.M_I$440": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 20:
++   OBJECT "X_DFF3.M_I$440": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 21:
++   OBJECT "X_DFF3.M_I$439": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 21:
++   OBJECT "X_DFF3.M_I$439": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 22:
++   OBJECT "X_DFF3.M_I$438": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 22:
++   OBJECT "X_DFF3.M_I$438": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 23:
++   OBJECT "X_DFF3.M_I$437": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 23:
++   OBJECT "X_DFF3.M_I$437": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 24:
++   OBJECT "X_DFF3.M_I$436": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 24:
++   OBJECT "X_DFF3.M_I$436": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 25:
++   OBJECT "X_DFF3.M_I$452": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 25:
++   OBJECT "X_DFF3.M_I$452": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 26:
++   OBJECT "X_DFF3.M_I$673": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 26:
++   OBJECT "X_DFF3.M_I$673": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 27:
++   OBJECT "X_DFF3.M_I$672": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 27:
++   OBJECT "X_DFF3.M_I$672": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 28:
++   OBJECT "X_DFF3.M_I$669": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 28:
++   OBJECT "X_DFF3.M_I$669": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 29:
++   OBJECT "X_DFF3.M_I$675": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 29:
++   OBJECT "X_DFF3.M_I$675": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 30:
++   OBJECT "X_DFF3.M_I$668": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 30:
++   OBJECT "X_DFF3.M_I$668": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 31:
++   OBJECT "X_DFF3.M_I$667": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 31:
++   OBJECT "X_DFF3.M_I$667": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 32:
++   OBJECT "X_DFF3.M_I$666": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 32:
++   OBJECT "X_DFF3.M_I$666": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 33:
++   OBJECT "X_DFF3.M_I$665": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 33:
++   OBJECT "X_DFF3.M_I$665": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 34:
++   OBJECT "X_DFF3.M_I$664": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 34:
++   OBJECT "X_DFF3.M_I$664": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 35:
++   OBJECT "X_DFF3.M_I$663": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 35:
++   OBJECT "X_DFF3.M_I$663": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 36:
++   OBJECT "X_DFF3.M_I$662": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 36:
++   OBJECT "X_DFF3.M_I$662": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 37:
++   OBJECT "X_DFF3.M_I$661": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 37:
++   OBJECT "X_DFF3.M_I$661": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 38:
++   OBJECT "X_DFF3.M_I$660": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 38:
++   OBJECT "X_DFF3.M_I$660": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 39:
++   OBJECT "X_DFF3.M_I$659": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 39:
++   OBJECT "X_DFF3.M_I$659": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 40:
++   OBJECT "X_DFF3.M_I$449": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 40:
++   OBJECT "X_DFF3.M_I$449": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 41:
++   OBJECT "X_DFF3.M_I$448": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 41:
++   OBJECT "X_DFF3.M_I$448": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 42:
++   OBJECT "X_DFF3.M_I$453": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 42:
++   OBJECT "X_DFF3.M_I$453": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 43:
++   OBJECT "X_DFF3.M_I$445": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 43:
++   OBJECT "X_DFF3.M_I$445": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 44:
++   OBJECT "X_DFF3.M_I$444": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 44:
++   OBJECT "X_DFF3.M_I$444": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 45:
++   OBJECT "X_DFF3.M_I$443": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 45:
++   OBJECT "X_DFF3.M_I$443": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 46:
++   OBJECT "X_DFF3.M_I$442": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 46:
++   OBJECT "X_DFF3.M_I$442": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 19:
++   OBJECT "X_DFF2.M_I$441": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 19:
++   OBJECT "X_DFF2.M_I$441": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 20:
++   OBJECT "X_DFF2.M_I$440": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 20:
++   OBJECT "X_DFF2.M_I$440": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 21:
++   OBJECT "X_DFF2.M_I$439": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 21:
++   OBJECT "X_DFF2.M_I$439": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 22:
++   OBJECT "X_DFF2.M_I$438": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 22:
++   OBJECT "X_DFF2.M_I$438": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 23:
++   OBJECT "X_DFF2.M_I$437": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 23:
++   OBJECT "X_DFF2.M_I$437": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 24:
++   OBJECT "X_DFF2.M_I$436": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 24:
++   OBJECT "X_DFF2.M_I$436": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 25:
++   OBJECT "X_DFF2.M_I$452": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 25:
++   OBJECT "X_DFF2.M_I$452": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 26:
++   OBJECT "X_DFF2.M_I$673": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 26:
++   OBJECT "X_DFF2.M_I$673": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 27:
++   OBJECT "X_DFF2.M_I$672": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 27:
++   OBJECT "X_DFF2.M_I$672": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 28:
++   OBJECT "X_DFF2.M_I$669": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 28:
++   OBJECT "X_DFF2.M_I$669": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 29:
++   OBJECT "X_DFF2.M_I$675": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 29:
++   OBJECT "X_DFF2.M_I$675": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 30:
++   OBJECT "X_DFF2.M_I$668": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 30:
++   OBJECT "X_DFF2.M_I$668": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 31:
++   OBJECT "X_DFF2.M_I$667": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 31:
++   OBJECT "X_DFF2.M_I$667": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 32:
++   OBJECT "X_DFF2.M_I$666": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 32:
++   OBJECT "X_DFF2.M_I$666": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 33:
++   OBJECT "X_DFF2.M_I$665": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 33:
++   OBJECT "X_DFF2.M_I$665": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 34:
++   OBJECT "X_DFF2.M_I$664": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 34:
++   OBJECT "X_DFF2.M_I$664": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 35:
++   OBJECT "X_DFF2.M_I$663": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 35:
++   OBJECT "X_DFF2.M_I$663": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 36:
++   OBJECT "X_DFF2.M_I$662": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 36:
++   OBJECT "X_DFF2.M_I$662": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 37:
++   OBJECT "X_DFF2.M_I$661": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 37:
++   OBJECT "X_DFF2.M_I$661": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 38:
++   OBJECT "X_DFF2.M_I$660": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 38:
++   OBJECT "X_DFF2.M_I$660": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 39:
++   OBJECT "X_DFF2.M_I$659": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 39:
++   OBJECT "X_DFF2.M_I$659": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 40:
++   OBJECT "X_DFF2.M_I$449": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 40:
++   OBJECT "X_DFF2.M_I$449": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 41:
++   OBJECT "X_DFF2.M_I$448": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 41:
++   OBJECT "X_DFF2.M_I$448": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 42:
++   OBJECT "X_DFF2.M_I$453": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 42:
++   OBJECT "X_DFF2.M_I$453": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 43:
++   OBJECT "X_DFF2.M_I$445": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 43:
++   OBJECT "X_DFF2.M_I$445": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 44:
++   OBJECT "X_DFF2.M_I$444": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 44:
++   OBJECT "X_DFF2.M_I$444": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 45:
++   OBJECT "X_DFF2.M_I$443": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 45:
++   OBJECT "X_DFF2.M_I$443": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 46:
++   OBJECT "X_DFF2.M_I$442": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 46:
++   OBJECT "X_DFF2.M_I$442": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 19:
++   OBJECT "X_DFF1.M_I$441": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 19:
++   OBJECT "X_DFF1.M_I$441": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 20:
++   OBJECT "X_DFF1.M_I$440": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 20:
++   OBJECT "X_DFF1.M_I$440": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 21:
++   OBJECT "X_DFF1.M_I$439": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 21:
++   OBJECT "X_DFF1.M_I$439": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 22:
++   OBJECT "X_DFF1.M_I$438": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 22:
++   OBJECT "X_DFF1.M_I$438": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 23:
++   OBJECT "X_DFF1.M_I$437": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 23:
++   OBJECT "X_DFF1.M_I$437": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 24:
++   OBJECT "X_DFF1.M_I$436": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 24:
++   OBJECT "X_DFF1.M_I$436": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 25:
++   OBJECT "X_DFF1.M_I$452": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 25:
++   OBJECT "X_DFF1.M_I$452": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 26:
++   OBJECT "X_DFF1.M_I$673": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 26:
++   OBJECT "X_DFF1.M_I$673": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 27:
++   OBJECT "X_DFF1.M_I$672": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 27:
++   OBJECT "X_DFF1.M_I$672": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 28:
++   OBJECT "X_DFF1.M_I$669": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 28:
++   OBJECT "X_DFF1.M_I$669": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 29:
++   OBJECT "X_DFF1.M_I$675": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 29:
++   OBJECT "X_DFF1.M_I$675": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 30:
++   OBJECT "X_DFF1.M_I$668": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 30:
++   OBJECT "X_DFF1.M_I$668": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 31:
++   OBJECT "X_DFF1.M_I$667": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 31:
++   OBJECT "X_DFF1.M_I$667": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 32:
++   OBJECT "X_DFF1.M_I$666": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 32:
++   OBJECT "X_DFF1.M_I$666": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 33:
++   OBJECT "X_DFF1.M_I$665": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 33:
++   OBJECT "X_DFF1.M_I$665": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 34:
++   OBJECT "X_DFF1.M_I$664": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 34:
++   OBJECT "X_DFF1.M_I$664": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 35:
++   OBJECT "X_DFF1.M_I$663": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 35:
++   OBJECT "X_DFF1.M_I$663": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 36:
++   OBJECT "X_DFF1.M_I$662": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 36:
++   OBJECT "X_DFF1.M_I$662": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 37:
++   OBJECT "X_DFF1.M_I$661": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 37:
++   OBJECT "X_DFF1.M_I$661": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 38:
++   OBJECT "X_DFF1.M_I$660": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 38:
++   OBJECT "X_DFF1.M_I$660": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 39:
++   OBJECT "X_DFF1.M_I$659": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 39:
++   OBJECT "X_DFF1.M_I$659": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 40:
++   OBJECT "X_DFF1.M_I$449": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 40:
++   OBJECT "X_DFF1.M_I$449": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 41:
++   OBJECT "X_DFF1.M_I$448": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 41:
++   OBJECT "X_DFF1.M_I$448": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 42:
++   OBJECT "X_DFF1.M_I$453": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 42:
++   OBJECT "X_DFF1.M_I$453": Model DFF.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 43:
++   OBJECT "X_DFF1.M_I$445": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 43:
++   OBJECT "X_DFF1.M_I$445": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 44:
++   OBJECT "X_DFF1.M_I$444": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 44:
++   OBJECT "X_DFF1.M_I$444": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 45:
++   OBJECT "X_DFF1.M_I$443": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 45:
++   OBJECT "X_DFF1.M_I$443": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 46:
++   OBJECT "X_DFF1.M_I$442": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 46:
++   OBJECT "X_DFF1.M_I$442": Model DFF.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 54:
++   OBJECT "X_INV012.M_I$411": Model INV01.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 54:
++   OBJECT "X_INV012.M_I$411": Model INV01.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 55:
++   OBJECT "X_INV012.M_I$412": Model INV01.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 55:
++   OBJECT "X_INV012.M_I$412": Model INV01.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR024.M_I$5": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR024.M_I$5": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR024.M_I$4": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR024.M_I$4": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR024.M_I$3": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR024.M_I$3": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR024.M_I$2": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR024.M_I$2": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR023.M_I$5": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR023.M_I$5": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR023.M_I$4": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR023.M_I$4": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR023.M_I$3": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR023.M_I$3": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR023.M_I$2": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR023.M_I$2": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 74:
++   OBJECT "X_NAND022.M_I$472": Model NAND02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 74:
++   OBJECT "X_NAND022.M_I$472": Model NAND02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 75:
++   OBJECT "X_NAND022.M_I$471": Model NAND02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 75:
++   OBJECT "X_NAND022.M_I$471": Model NAND02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 76:
++   OBJECT "X_NAND022.M_I$4": Model NAND02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 76:
++   OBJECT "X_NAND022.M_I$4": Model NAND02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 77:
++   OBJECT "X_NAND022.M_I$5": Model NAND02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 77:
++   OBJECT "X_NAND022.M_I$5": Model NAND02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR022.M_I$5": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR022.M_I$5": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR022.M_I$4": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR022.M_I$4": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR022.M_I$3": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR022.M_I$3": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR022.M_I$2": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR022.M_I$2": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 85:
++   OBJECT "X_OR022.M_I$212": Model OR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 85:
++   OBJECT "X_OR022.M_I$212": Model OR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 86:
++   OBJECT "X_OR022.M_I$211": Model OR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 86:
++   OBJECT "X_OR022.M_I$211": Model OR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 87:
++   OBJECT "X_OR022.M_I$5": Model OR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 87:
++   OBJECT "X_OR022.M_I$5": Model OR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 88:
++   OBJECT "X_OR022.M_I$4": Model OR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 88:
++   OBJECT "X_OR022.M_I$4": Model OR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 89:
++   OBJECT "X_OR022.M_I$3": Model OR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 89:
++   OBJECT "X_OR022.M_I$3": Model OR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 90:
++   OBJECT "X_OR022.M_I$2": Model OR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 90:
++   OBJECT "X_OR022.M_I$2": Model OR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 85:
++   OBJECT "X_OR021.M_I$212": Model OR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 85:
++   OBJECT "X_OR021.M_I$212": Model OR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 86:
++   OBJECT "X_OR021.M_I$211": Model OR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 86:
++   OBJECT "X_OR021.M_I$211": Model OR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 87:
++   OBJECT "X_OR021.M_I$5": Model OR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 87:
++   OBJECT "X_OR021.M_I$5": Model OR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 88:
++   OBJECT "X_OR021.M_I$4": Model OR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 88:
++   OBJECT "X_OR021.M_I$4": Model OR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 89:
++   OBJECT "X_OR021.M_I$3": Model OR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 89:
++   OBJECT "X_OR021.M_I$3": Model OR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 90:
++   OBJECT "X_OR021.M_I$2": Model OR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 90:
++   OBJECT "X_OR021.M_I$2": Model OR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 74:
++   OBJECT "X_NAND021.M_I$472": Model NAND02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 74:
++   OBJECT "X_NAND021.M_I$472": Model NAND02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 75:
++   OBJECT "X_NAND021.M_I$471": Model NAND02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 75:
++   OBJECT "X_NAND021.M_I$471": Model NAND02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 76:
++   OBJECT "X_NAND021.M_I$4": Model NAND02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 76:
++   OBJECT "X_NAND021.M_I$4": Model NAND02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 77:
++   OBJECT "X_NAND021.M_I$5": Model NAND02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 77:
++   OBJECT "X_NAND021.M_I$5": Model NAND02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR021.M_I$5": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 63:
++   OBJECT "X_NOR021.M_I$5": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR021.M_I$4": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 64:
++   OBJECT "X_NOR021.M_I$4": Model NOR02.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR021.M_I$3": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 65:
++   OBJECT "X_NOR021.M_I$3": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR021.M_I$2": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 66:
++   OBJECT "X_NOR021.M_I$2": Model NOR02.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 54:
++   OBJECT "X_INV011.M_I$411": Model INV01.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 54:
++   OBJECT "X_INV011.M_I$411": Model INV01.P not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 55:
++   OBJECT "X_INV011.M_I$412": Model INV01.N not yet defined.
+Error: (eldo - 1577)  In file "./ami05a/seq_circuit_ami05a.spi" line 55:
++   OBJECT "X_INV011.M_I$412": Model INV01.N not yet defined.
+Warning: (eldo - 1615)  In file "./ami05a/seq_circuit_ami05a.cir" line 29:
++   COMMAND ".TRAN": Tstep can not be <= 0.0.
++   It is set to Tmax/20.0 = 5.000e-09 s.

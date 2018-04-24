@@ -1,0 +1,29 @@
+* Component: /home/adn33/adn33/EECS315_Lab3/seq_circuit  Viewpoint: ami05a
+.INCLUDE /home/adn33/adn33/EECS315_Lab3/seq_circuit/ami05a/seq_circuit_ami05a.spi
+.PLOT TRAN V(CLK)
+.PLOT TRAN V(OUT)
+.PLOT TRAN V(Y0)
+.PLOT TRAN V(Y1)
+.PLOT TRAN V(Y2)
+
+VFORCE__CLK CLK GND pulse (0 1 0 1e-09 1e-09 5e-08 1e-07)
+
+VFORCE__I0 I0 GND pulse (0 1 0 1e-09 1e-09 5e-08 1e-07)
+
+VFORCE__I1 I1 GND pulse (0 1 0 1e-09 1e-09 5e-08 1e-07)
+
+VFORCE__I2 I2 GND pulse (0 1 0 1e-09 1e-09 5e-08 1e-07)
+
+VFORCE__I3 I3 GND pulse (0 1 0 1e-09 1e-09 5e-08 1e-07)
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+
+.TRAN  0 100N 0s 
