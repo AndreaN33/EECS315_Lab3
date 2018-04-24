@@ -1,0 +1,16 @@
+* LVS netlist generated with ICnet by 'adn33' on Mon Apr 23 2018 at 22:49:13
+
+*
+* Globals.
+*
+.global GND VDD
+
+*
+* Component pathname : /home/adn33/adn33/EECS315_Lab3/inv
+*
+.subckt inv  OUt In
+
+        MN1 OUt In GND GND n L=2u W=5u
+        MP1 OUt In VDD VDD p L=2u W=5u
+.ends inv
+

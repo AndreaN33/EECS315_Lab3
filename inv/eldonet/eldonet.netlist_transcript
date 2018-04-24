@@ -1,0 +1,45 @@
+// *************************************************************************
+// Warning: This Linux distribution is not supported.
+// 
+// Supported runtime operating systems for this 64 bit application are: 
+// RHEL 3  64 bit
+// RHEL 4  64 bit
+// RHEL 5  64 bit
+// SLES 9  64 bit
+// SLES 10 64 bit
+// *************************************************************************
+//  ICnet  v2008.2_10.1 (2008.2i)  Tue May 11 17:04:35 PDT 2010
+//  Core Libraries  v2008.2_10.1 Tue May 11 17:22:44 PDT 2010
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -lvs -o /home/adn33/adn33/EECS315_Lab3/inv/inv.src.net -check -preserve_case -spice_top_sub -dmsfile /home/adn33/adn33/EECS315_Lab3/4x4_mult/ami05a/design.dms /home/adn33/adn33/EECS315_Lab3/inv/eldonet
+
+// **** Reading </home/adn33/adn33/EECS315_Lab3/inv/eldonet> for LVS netlist ****
+
+// Checking 1 sheet(s) for out of date references to symbols and interfaces...
+// Done.
+// Parsing file '/mgc/adk3_1/technology/ic/symbols/pmos4/@ncf.dir/pmos4.ncf' succeeded.
+// Parsing file '/mgc/adk3_1/technology/ic/symbols/nmos4/@ncf.dir/nmos4.ncf' succeeded.
+Processing [/home/adn33/adn33/EECS315_Lab3/inv] [inv/inv] [schematic]
+Primitive [$ADK/technology/ic/symbols/nmos4] [MG_STD/nmos3] [SPICE=PRIM] (NCF entry line:8 file:/mgc/adk3_1/technology/ic/symbols/nmos4/@ncf.dir/nmos4.ncf)
+Primitive [$ADK/technology/ic/symbols/pmos4] [MG_STD/pmos3] [SPICE=PRIM] (NCF entry line:8 file:/mgc/adk3_1/technology/ic/symbols/pmos4/@ncf.dir/pmos4.ncf)
+
+**** Writing </home/adn33/adn33/EECS315_Lab3/inv/eldonet> netlist for LVS ****
+
+Number of cells: 3
+Number of primitive instances: 2
+
+Done...
+// Registration file '/mgc/adk3_1/technology/ic/symbols/pmos4/@ncf.dir/pmos4.ncf' closed.
+// Registration file '/mgc/adk3_1/technology/ic/symbols/nmos4/@ncf.dir/nmos4.ncf' closed.

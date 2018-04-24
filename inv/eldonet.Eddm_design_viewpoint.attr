@@ -1,0 +1,13 @@
+A 5 u Eddm_design_viewpoint 5ade9b28d39c.03.7f.00.01.01.00.23.76 1 2 4 0
+V v 1 4 5ade9b28d39c.03.7f.00.01.01.01.23.76
+F f 1 "eldonet.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/adn33/adn33/EECS315_Lab3/inv/part" 2 Eddm_part 5ade4b318d43.03.7f.00.01.01.00.23.76 5ade4a35ba4c.03.7f.00.01.01.00.23.76
+R cspuv 1 "/home/adn33/adn33/EECS315_Lab3/inv/inv" 1 mgc_symbol 5ade4894a5a4.03.7f.00.01.01.01.23.76 5ade47cadd06.03.7f.00.01.01.00.23.76
+R cspuv 2 "/home/adn33/adn33/EECS315_Lab3/inv/schematic" 1 mgc_schematic 5ade463de48d.03.7f.00.01.01.01.23.76 5ade463de48d.03.7f.00.01.01.00.23.76
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 3 "/home/adn33/adn33/EECS315_Lab3/inv/eldonet" 1 Eddm_ba_mgr 5ade9b28d41a.03.7f.00.01.01.01.23.76 5ade9b28d41a.03.7f.00.01.01.00.23.76

@@ -1,0 +1,108 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   GND GND
+   VDD VDD
+End Globals
+
+Cell nmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell pmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell dff
+   Pin QB QB
+   Pin Q Q
+   Pin CLK CLK
+   Pin D D
+   Net N$1074 N$1074
+   Net N$1073 N$1073
+   Net N$1072 N$1072
+   Net N$1071 N$1071
+   Net N$1070 N$1070
+   Net bclk bclk
+   Net bclk- bclk-
+   Net N$1069 N$1069
+   Net N$847 N$847
+   Net N$852 N$852
+   Net N$851 N$851
+   Net N$849 N$849
+   Net N$848 N$848
+   Net N$845 N$845
+   Net D D
+   Net CLK CLK
+   Net Q Q
+   Net QB QB
+   Global GND GND
+   Global VDD VDD
+   Inst I$441 M_I$441 nmos4
+   Inst I$440 M_I$440 pmos4
+   Inst I$439 M_I$439 pmos4
+   Inst I$438 M_I$438 pmos4
+   Inst I$437 M_I$437 pmos4
+   Inst I$436 M_I$436 pmos4
+   Inst I$452 M_I$452 nmos4
+   Inst I$673 M_I$673 nmos4
+   Inst I$672 M_I$672 pmos4
+   Inst I$669 M_I$669 nmos4
+   Inst I$675 M_I$675 pmos4
+   Inst I$668 M_I$668 nmos4
+   Inst I$667 M_I$667 nmos4
+   Inst I$666 M_I$666 nmos4
+   Inst I$665 M_I$665 nmos4
+   Inst I$664 M_I$664 nmos4
+   Inst I$663 M_I$663 pmos4
+   Inst I$662 M_I$662 pmos4
+   Inst I$661 M_I$661 pmos4
+   Inst I$660 M_I$660 pmos4
+   Inst I$659 M_I$659 pmos4
+   Inst I$449 M_I$449 nmos4
+   Inst I$448 M_I$448 pmos4
+   Inst I$453 M_I$453 pmos4
+   Inst I$445 M_I$445 nmos4
+   Inst I$444 M_I$444 nmos4
+   Inst I$443 M_I$443 nmos4
+   Inst I$442 M_I$442 nmos4
+End Cell
+
+Cell #top#
+   Pin CLK CLK
+   Pin D0 D0
+   Pin D1 D1
+   Pin D2 D2
+   Pin D3 D3
+   Pin Q0 Q0
+   Pin Q1 Q1
+   Pin Q2 Q2
+   Pin Q3 Q3
+   Net N$16 N$16
+   Net N$12 N$12
+   Net N$8 N$8
+   Net N$2 N$2
+   Net Q3 Q3
+   Net Q2 Q2
+   Net Q1 Q1
+   Net Q0 Q0
+   Net D3 D3
+   Net D2 D2
+   Net D1 D1
+   Net D0 D0
+   Net CLK CLK
+   Inst DFF4 X_DFF4 dff
+   Inst DFF3 X_DFF3 dff
+   Inst DFF2 X_DFF2 dff
+   Inst DFF1 X_DFF1 dff
+End Cell
+

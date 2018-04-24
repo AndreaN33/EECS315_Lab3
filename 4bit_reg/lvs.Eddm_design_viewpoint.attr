@@ -1,0 +1,25 @@
+A 5 u Eddm_design_viewpoint 5ade9a3cc4e0.03.7f.00.01.01.00.23.76 2 2 4 0
+V v 1 4 5ade9a3cc4e0.03.7f.00.01.01.01.23.76
+F f 1 "lvs.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+V v 2 4 5ade9a3cc636.03.7f.00.01.01.00.23.76
+F f 2 "lvs.dvpt_2"
+F o 0 
+F o 0 
+F o 0 
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/adn33/adn33/EECS315_Lab3/4bit_reg/part" 2 Eddm_part 5ade72095089.03.7f.00.01.01.00.23.76 5ade71dfd0f3.03.7f.00.01.01.00.23.76
+R cspuv 1 "/home/adn33/adn33/EECS315_Lab3/4bit_reg/schematic" 1 mgc_schematic 5ade700297d8.03.7f.00.01.01.00.23.76 5ade700297d7.03.7f.00.01.01.00.23.76
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/adn33/adn33/EECS315_Lab3/4bit_reg/4bit_reg" 1 mgc_symbol 5ade71ec5034.03.7f.00.01.01.01.23.76 5ade71ec5034.03.7f.00.01.01.00.23.76
+R cspuv 3 "/home/adn33/adn33/EECS315_Lab3/4bit_reg/lvs" 1 Eddm_ba_mgr 5ade9a3cc56e.03.7f.00.01.01.01.23.76 5ade9a3cc56e.03.7f.00.01.01.00.23.76
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/adn33/adn33/EECS315_Lab3/4bit_reg/part" 2 Eddm_part 5ade72095089.03.7f.00.01.01.00.23.76 5ade71dfd0f3.03.7f.00.01.01.00.23.76
+R cspuv 1 "/home/adn33/adn33/EECS315_Lab3/4bit_reg/schematic" 1 mgc_schematic 5ade700297d8.03.7f.00.01.01.00.23.76 5ade700297d7.03.7f.00.01.01.00.23.76
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/adn33/adn33/EECS315_Lab3/4bit_reg/4bit_reg" 1 mgc_symbol 5ade71ec5034.03.7f.00.01.01.01.23.76 5ade71ec5034.03.7f.00.01.01.00.23.76
+R cspuv 3 "/home/adn33/adn33/EECS315_Lab3/4bit_reg/lvs" 1 Eddm_ba_mgr 5ade9a3cc56e.03.7f.00.01.01.01.23.76 5ade9a3cc56e.03.7f.00.01.01.00.23.76

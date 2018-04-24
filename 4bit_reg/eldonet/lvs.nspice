@@ -1,0 +1,53 @@
+* LVS netlist generated with ICnet by 'adn33' on Mon Apr 23 2018 at 22:47:10
+
+*
+* Globals.
+*
+.global GND VDD
+
+*
+* Component pathname : $ADK/parts/dff
+*
+.subckt dff  QB Q CLK D
+
+        M_I$441 N$847 bclk- N$851 GND n L=0.6u W=4.5u
+        M_I$440 N$849 N$847 VDD VDD p L=0.6u W=1.5u
+        M_I$439 N$847 bclk- N$848 VDD p L=0.6u W=1.5u
+        M_I$438 N$848 N$849 VDD VDD p L=0.6u W=1.5u
+        M_I$437 N$847 bclk N$845 VDD p L=0.6u W=8.1u
+        M_I$436 N$845 D VDD VDD p L=0.6u W=8.1u
+        M_I$452 bclk bclk- GND GND n L=0.6u W=3u
+        M_I$673 Q QB GND GND n L=0.6u W=3u
+        M_I$672 Q QB VDD VDD p L=0.6u W=5.4u
+        M_I$669 QB N$1074 GND GND n L=0.6u W=3u
+        M_I$675 QB N$1074 VDD VDD p L=0.6u W=5.4u
+        M_I$668 N$1071 N$1074 GND GND n L=0.6u W=1.5u
+        M_I$667 N$1073 N$1071 GND GND n L=0.6u W=1.5u
+        M_I$666 N$1074 bclk- N$1073 GND n L=0.6u W=1.5u
+        M_I$665 N$1072 N$847 GND GND n L=0.6u W=4.5u
+        M_I$664 N$1074 bclk N$1072 GND n L=0.6u W=4.5u
+        M_I$663 N$1071 N$1074 VDD VDD p L=0.6u W=1.5u
+        M_I$662 N$1074 bclk N$1070 VDD p L=0.6u W=1.5u
+        M_I$661 N$1070 N$1071 VDD VDD p L=0.6u W=1.5u
+        M_I$660 N$1074 bclk- N$1069 VDD p L=0.6u W=8.1u
+        M_I$659 N$1069 N$847 VDD VDD p L=0.6u W=8.1u
+        M_I$449 bclk- CLK GND GND n L=0.6u W=3u
+        M_I$448 bclk- CLK VDD VDD p L=0.6u W=5.4u
+        M_I$453 bclk bclk- VDD VDD p L=0.6u W=5.4u
+        M_I$445 N$849 N$847 GND GND n L=0.6u W=1.5u
+        M_I$444 N$852 N$849 GND GND n L=0.6u W=1.5u
+        M_I$443 N$847 bclk N$852 GND n L=0.6u W=1.5u
+        M_I$442 N$851 D GND GND n L=0.6u W=4.5u
+.ends dff
+
+*
+* Component pathname : /home/adn33/adn33/EECS315_Lab3/4bit_reg
+*
+.subckt 4bit_reg  CLK D0 D1 D2 D3 Q0 Q1 Q2 Q3
+
+        X_DFF4 N$16 Q3 CLK D3 dff
+        X_DFF3 N$12 Q2 CLK D2 dff
+        X_DFF2 N$8 Q1 CLK D1 dff
+        X_DFF1 N$2 Q0 CLK D0 dff
+.ends 4bit_reg
+

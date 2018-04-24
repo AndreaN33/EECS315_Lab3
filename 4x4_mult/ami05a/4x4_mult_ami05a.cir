@@ -1,0 +1,19 @@
+* Component: /home/adn33/adn33/EECS315_Lab3/4x4_mult  Viewpoint: ami05a
+.INCLUDE /home/adn33/adn33/EECS315_Lab3/4x4_mult/ami05a/4x4_mult_ami05a.spi
+.LIB $ADK/technology/ic/models/ami05.mod$ADK/technology/ic/models/ami05.mod
+.LIB $ADK/technology/ic/models/VDD_5.mod
+.PLOT TRAN V(CLK)
+
+VFORCE__CLK CLK GND pulse (0 1 0 1e-09 1e-09 5e-08 1e-07)
+
+
+
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+
+.TEMP 27 
+
+.TRAN  0 100N 0n 

@@ -1,0 +1,23 @@
+//  ICnet  v2008.2_10.1 (2008.2i)  Tue May 11 17:04:35 PDT 2010
+//  Core Libraries  v2008.2_10.1 Tue May 11 17:22:44 PDT 2010
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -lvs -o /home/adn33/adn33/EECS315_Lab3/2-1_mux/2-1_mux.src.net -check -preserve_case -spice_top_sub -dmsfile /home/adn33/adn33/EECS315_Lab3/4x4_mult/ami05a/design.dms /home/adn33/adn33/EECS315_Lab3/2-1_mux/eldonet
+
+// **** Reading </home/adn33/adn33/EECS315_Lab3/2-1_mux/eldonet> for LVS netlist ****
+
+
+// ICnet: Cannot get to root model
+//    No EDDM model exists for instance /, part /home/adn33/adn33/EECS315_Lab3/2-1_mux/part:2-1_mux
+

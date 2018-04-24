@@ -1,0 +1,41 @@
+// *************************************************************************
+// Warning: This Linux distribution is not supported.
+// 
+// Supported runtime operating systems for this 64 bit application are: 
+// RHEL 3  64 bit
+// RHEL 4  64 bit
+// RHEL 5  64 bit
+// SLES 9  64 bit
+// SLES 10 64 bit
+// *************************************************************************
+//  ICnet  v2008.2_10.1 (2008.2i)  Tue May 11 17:04:35 PDT 2010
+//  Core Libraries  v2008.2_10.1 Tue May 11 17:22:44 PDT 2010
+//
+//             Copyright Mentor Graphics Corporation 1982
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86_64 Linux.
+//
+
+
+//  Invocation args:  -lvs -o /home/adn33/adn33/EECS315_Lab3/4x4_mult/4x4_mult.src.net -check -preserve_case -spice_top_sub -dmsfile /home/adn33/adn33/EECS315_Lab3/4x4_mult/ami05a/design.dms /home/adn33/adn33/EECS315_Lab3/4x4_mult/eldonet
+
+// **** Reading </home/adn33/adn33/EECS315_Lab3/4x4_mult/eldonet> for LVS netlist ****
+
+// Checking 9 sheet(s) for out of date references to symbols and interfaces...
+
+ *** error *** : Out of date symbol reference in sheet '$ADK/parts/and02/schematic/sheet1'.
+  Version 1 of symbol '$ADK/parts/adk_symbols/nmos4/nmos3' is referenced by the sheet but is not the most current (1).
+
+ *** error *** : Out of date symbol reference in sheet '$ADK/parts/and02/schematic/sheet1'.
+  Version 1 of symbol '$ADK/parts/adk_symbols/pmos4/pmos3' is referenced by the sheet but is not the most current (1).
+*** Please use DA_IC to update the schematic current versions by updating individual sheets
+*** or use the 'Update All Schematics' command in DA_IC.
+
+Must stop due to the previous 2 error(s).
+

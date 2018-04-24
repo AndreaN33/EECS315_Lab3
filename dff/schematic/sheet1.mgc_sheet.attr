@@ -1,0 +1,8 @@
+A 5 u mgc_sheet 5ade9ae8e885.03.7f.00.01.01.00.23.76 1 2 1 0
+V v 1 2 5ade9ae8e885.03.7f.00.01.01.01.23.76
+F f 1 "sheet1.ssht_1"
+F f 1 "sheet1.sgfx_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/adn33/adn33/EECS315_Lab3/dff/schematic" 2 mgc_schematic 5ade53754d09.03.7f.00.01.01.00.23.76 5ade4e06ddf0.03.7f.00.01.01.00.23.76
+P "eddm__refer_state" "eddm__refer_floating"
