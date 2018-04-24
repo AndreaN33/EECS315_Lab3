@@ -1,12 +1,19 @@
-A 5 u Eddm_part 5ade6e0e7aba.03.7f.00.01.01.00.23.76 2 2 2 0
-V v 1 1 5ade6e0e7aba.03.7f.00.01.01.01.23.76
-F f 1 "part.part_1"
+A 5 u Eddm_part 5ade6e0e7aba.03.7f.00.01.01.00.23.76 4 2 2 0
 V v 2 1 5ade6ebd5200.03.7f.00.01.01.00.23.76
 F f 2 "part.part_2"
+V v 3 1 5ade820a4d5b.03.7f.00.01.01.00.23.76
+F f 3 "part.part_3"
+V v 4 1 5ade825f84f9.03.7f.00.01.01.00.23.76
+F f 4 "part.part_4"
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/adn33/adn33/EECS315_Lab3/4bit_adder/schematic" 1 mgc_schematic 5ade6c171e78.03.7f.00.01.01.01.23.76 5ade6c171e78.03.7f.00.01.01.00.23.76
+R csduv 1 "/home/adn33/adn33/EECS315_Lab3/4bit_adder/4bit_adder" 3 mgc_symbol 5ade825f84f0.03.7f.00.01.01.00.23.76 5ade6e19d6e8.03.7f.00.01.01.00.23.76
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/adn33/adn33/EECS315_Lab3/4bit_adder/schematic" 1 mgc_schematic 5ade6c171e78.03.7f.00.01.01.01.23.76 5ade6c171e78.03.7f.00.01.01.00.23.76
+R csduv 1 "/home/adn33/adn33/EECS315_Lab3/4bit_adder/4bit_adder" 2 mgc_symbol 5ade820a4d41.03.7f.00.01.01.00.23.76 5ade6e19d6e8.03.7f.00.01.01.00.23.76
 O 2
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "/home/adn33/adn33/EECS315_Lab3/4bit_adder/schematic" 1 mgc_schematic 5ade6c171e78.03.7f.00.01.01.01.23.76 5ade6c171e78.03.7f.00.01.01.00.23.76
 R csduv 1 "/home/adn33/adn33/EECS315_Lab3/4bit_adder/4bit_adder" 1 mgc_symbol 5ade6e19d6e8.03.7f.00.01.01.01.23.76 5ade6e19d6e8.03.7f.00.01.01.00.23.76
-O 1
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "/home/adn33/adn33/EECS315_Lab3/4bit_adder/schematic" 1 mgc_schematic 5ade6c171e78.03.7f.00.01.01.01.23.76 5ade6c171e78.03.7f.00.01.01.00.23.76
