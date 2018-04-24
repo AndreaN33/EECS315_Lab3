@@ -5,7 +5,7 @@
 The purpose of this lab is to simulate both a sequential circuit and a 4x4 Multiplier using Design Architect IC
 
 
-##Problem 1
+## Problem 1
 
 Problem 1 focused on designing a registered combinational circuit to practice timing analysis on. We were expected to use the worst case rise and fall times for each of the gates from lab 2 to compute the longest sensitizable in the circuit. To construct this schematic, I used Nand, Nor, and Inverter gates constructed in lab 2, as well as a remade D Flip-Flop. An image of the final schematic is attached below.
  
@@ -22,7 +22,7 @@ Clock time cycle:
 
 Setup/Hold time violations:
 
-##Problem 2
+## Problem 2
 This problem had me design a 4x4 multiplier using the shift add structure given. To complete this task, I had to create many schematics. The entire schematic is attached below, with following closeups of individual parts.
 
 ![image](4x4_Multiplier.png)
