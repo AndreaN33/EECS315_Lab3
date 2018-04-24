@@ -64,7 +64,7 @@ Setup/Hold time violation: I was unable to determine if there was a setup / hold
 Is the time cycle optimal?
 I imagine any time cycle I calculate would not be optional, since I don't have enough experience to verify optimality. 
 
-##Conclusions
+## Conclusions
 During this lab, I learned how to work through the design process of a digital clocked circuit, based on basic parameters and a simple structure. Although I need more practice determining path delays and optimal clock cycles, I believe I have a better understanding of how the design process works. I also gained a better understanding of how to work with Design Architect IC, although I could benefit from time spent with a more experienced user of the program to optimixe my skills and become more proficient at debugging errors. 
 
  
